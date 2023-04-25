@@ -5,6 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #272B30;
+}
+
+.bgColor {
+  background-color: #1C1E22;
+}
+
+.bgColor2 {
+  background-color: #32383E;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.card {
+  transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -ms-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  overflow: hidden;
+}
+
+.homeContent {
+  background-image: url(Assets/paladins.b44d33d6e7ee1ba8.png);
+}
+
+.pc .card {
+  height: 360px;
+}
+
+.pc .card p {
+  height: 60px;
+}
+
+.pc h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 code {
